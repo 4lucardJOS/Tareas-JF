@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\TareasEscalab\.metadata\.plugins\org.eclipse.jdt.core
+2301088985.index
