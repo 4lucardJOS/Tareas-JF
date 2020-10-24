@@ -20,8 +20,8 @@ public interface IVentaRepo extends JpaRepository<Venta, Integer>{
 	List<Venta> buscarFecha(@Param("fechaVenta") LocalDateTime fechaVenta, @Param("fechaSgte") LocalDateTime fechaSgte);
 	
 	
-	@Query(value = "select * from fn_listarResumen()", nativeQuery = true)
-	List<Object[]> listarResumen();
+	//@Query(value = "select * from fn_listarResumen()", nativeQuery = true)
+	//List<Object[]> listarResumen();
 	
 
 }
