@@ -23,8 +23,4 @@ public class VentaListaProductoDTO {
 		this.lstProducto = lstProducto;
 	}
 	
-	
-
-	
-
 }
